@@ -1,9 +1,40 @@
-## 0x19. Postmortem
-Any software system will eventually fail, and that failure can come stem from a wide range of possible factors: bugs, traffic spikes, security issues, hardware failures, natural disasters, human error… Failing is normal and failing is actually a great opportunity to learn and improve. Any great Software Engineer must learn from his/her mistakes to make sure that they won’t happen again. Failing is fine, but failing twice because of the same issue is not.
+# Web Stack Tango Incident - README
+![Server](https://github.com/DenzelBraxton/alx-system_engineering-devops/assets/99493584/36d052a0-641c-4a1d-a8d1-c833153788fb)
 
-A postmortem is a tool widely used in the tech industry. After any outage, the team(s) in charge of the system will write a summary that has 2 main goals:
+Welcome to the Web Stack Tango Incident README! 🕺💃
 
-* To provide the rest of the company’s employees easy access to information detailing the cause of the outage. Often outages can have a huge impact on a company, so managers and executives have to understand what happened and how it will impact their work.
-* And to ensure that the root cause(s) of the outage has been discovered and that measures are taken to make sure it will be fixed.
+## Incident Summary
+- **Duration:** August 10, 2023, 15:30 - 18:45 (UTC)
+- **Impact:** Slow Performance, Partial Downtime on Customer Dashboard
+- **Users Affected:** ~30% of users experienced delays
 
-[Here is an example of a fictious incident report.](https://medium.com/@Zelique/postmortem-d3953c3f47b2)
+## Root Cause
+A database query's missteps caused a server room disco party, leading to slow responses and occasional service hiccups.
+
+## Timeline Highlights
+- **15:30:** Response time breakdance alarms triggered.
+- **16:00:** Network logs swayed, but a new feature danced out of suspicion.
+- **17:30:** Query logs pointed at the troublemaker query.
+- **18:15:** Database heroes revealed query execution mischief.
+- **18:45:** Fresh execution plan choreography saved the day.
+
+## Resolution Moves
+A new execution plan taught the query some manners, bringing back smooth dashboard samba.
+
+## Corrective and Preventative Actions
+1. **Query Groove:** Optimize SQL moves with regular tuning and indexing.
+2. **Monitor Disco:** Set up alert lights for query hiccups and add database metrics glitz.
+3. **Load Dance-off:** Sweat it out with load testing before new features hit the floor.
+4. **Backup Dancers:** Perfect incident escalation choreography, engage experts timely.
+5. **Wisdom Sharing:** Document the backstage process, root cause analysis, and resolution steps.
+
+## Future Dancefloor
+We've learned our steps, fine-tuned our rhythm, and are ready for the encore. With these actions, we're set to groove forward, delivering smooth performances and minimizing unplanned disco parties.
+
+Keep dancing, keep optimizing, and let's ensure our next performance shines even brighter! 🌟
+
+Enjoy the groove,
+Your Engineering Ensemble 🎉
+
+
+
